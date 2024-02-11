@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0c9a8;
+}
+
+header {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2b97f67;
+}
+
+.logo-box {
+  border: 5% solid #b8987b;
+  background-color: #ebc09800;
+  border-radius: 0%;
+  padding: 1%;
+  margin-right: 1%;
+  overflow: hidden;
+}
+
+.logo-box img {
+  display: block;
+  width: auto;
+  height: 150px;
+}
+
+h1 {
+  color: #1a1a1a;
+  margin-left: 1%;
+  font-size: 3em;
+  font-family: "Outfit", sans-serif;
+  text-shadow: 1px 1px 1px #aca8a2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sidebar {
+  display: flex;
+  padding-left: 5%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.sidebar li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #b8987b;
+}
+
+.sidebar a {
+  display: block;
+  color: #694d4d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #e0c9a8;
+}
+
+.sidebar li:last-child {
+  border-right: none;
+}
+
+.sidebar li a.active {
+  background-color: #e0c9a8;
+  color: #694d4d;
+}
+
+.sidebar li a:hover:not(.active) {
+  background-color: #e0c9a8;
+  color: #694d4d;
+}
+
+.container,
+.containers,
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 10%;
+  background-color: #e0c9a8;
+  text-shadow: #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.container .text,
+.containers .text {
+  background-color: #e0c9a8;
+  color: #694d4d;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 20px;
+  font-size: 190%;
+  font-family: "Outfit", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
+  text-shadow: 1px 1px 1px #aca8a2;
+  box-shadow: 0px 0px 10px #93774f;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.containers {
+  flex-direction: row-reverse;
+}
+
+.image-car img {
+  width: 72%;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+
+.modele {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #b8987b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0c9a8;
+  text-shadow: #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.stats ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #b8987b;
+}
+
+.preview {
+  width: 100%;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
